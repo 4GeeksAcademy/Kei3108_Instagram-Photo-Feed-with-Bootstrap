@@ -1,0 +1,30 @@
+.tab-content {
+  display: none;
+}
+
+.tab-content:target {
+  display: block;
+}
+
+.tab-content:not(:target) {
+  display: none;
+}
+
+#dropdown-item-red {
+  color: red;
+}
+
+
+#tab1 {
+  max-width: 80%;
+  margin: 0px auto;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#tab2 {
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
